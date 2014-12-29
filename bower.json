@@ -1,0 +1,27 @@
+{
+	"name": "{{app}}",
+	"install" : {
+		"path" : {
+			"css": "assets/css",
+			"js": "assets/js/libs"
+		},
+		"sources" : {
+			"backbone.ui.alert" : [
+				"components/backbone.ui.alert/assets/js/backbone.ui.alert.js",
+				"components/backbone.ui.alert/assets/css/backbone.ui.alert.css"
+			]
+		}
+	},
+	"dependencies": {
+		"app": "latest"
+		"system.js": "0.11.0",
+		"backbone.ui.alert" : "latest"
+		"backbone.ui.anchor" : "latest"
+		"backbone.ui.header" : "latest"
+		"backbone.ui.litenav" : "latest"
+		"backbone.ui.modal" : "latest"
+		"backbone.ui.slideshow" : "latest"
+		"backbone.ui.scrollchange" : "latest"
+		"backbone.markdown" : "latest"
+	}
+}
